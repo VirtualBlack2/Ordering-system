@@ -59,7 +59,7 @@ public class Main {
         System.out.println("🥖Does it have gluten?");
         boolean hasGluten = keyboard.nextBoolean();
 
-        // Flush the stream
+        //flush da stream
         keyboard.nextLine();
 
         FoodItem newItem = new FoodItem(name, price, hasGluten);
